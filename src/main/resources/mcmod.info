@@ -1,0 +1,17 @@
+[
+{
+"modid": "nyghtmod",
+"name": "Nyght's Mod",
+"description": "My first mod!",
+"version": "1.7.10-1.0",
+"credits": "Created by Nyghtprowler",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "Nyghtprowler" ],
+"parent":"",
+"screenshots": [],
+"dependencies": []
+}
+]
