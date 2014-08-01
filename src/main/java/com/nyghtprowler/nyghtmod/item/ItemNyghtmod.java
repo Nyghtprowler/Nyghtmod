@@ -1,5 +1,6 @@
 package com.nyghtprowler.nyghtmod.item;
 
+import com.nyghtprowler.nyghtmod.creativetab.CreativeTabNyghtmod;
 import com.nyghtprowler.nyghtmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemNyghtmod extends Item
     public ItemNyghtmod()
     {
         super();
+        this.setCreativeTab(CreativeTabNyghtmod.NYGHT_TAB);
 
     }
 

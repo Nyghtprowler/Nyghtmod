@@ -1,6 +1,7 @@
 package com.nyghtprowler.nyghtmod;
 
 import com.nyghtprowler.nyghtmod.handler.ConfigurationHandler;
+import com.nyghtprowler.nyghtmod.init.ModBlocks;
 import com.nyghtprowler.nyghtmod.init.ModItems;
 import com.nyghtprowler.nyghtmod.proxy.IProxy;
 import com.nyghtprowler.nyghtmod.reference.Reference;
@@ -31,6 +32,8 @@ public class nyghtmod
         LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
