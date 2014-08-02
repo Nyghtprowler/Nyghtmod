@@ -1,6 +1,7 @@
 package com.nyghtprowler.nyghtmod.block;
 
 
+import com.nyghtprowler.nyghtmod.creativetab.CreativeTabNyghtMod;
 import com.nyghtprowler.nyghtmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,8 +13,10 @@ import net.minecraft.item.ItemStack;
 public class BlockNyghtmod extends Block
 {
     public BlockNyghtmod(Material material)
+
     {
         super(material);
+        this.setCreativeTab(CreativeTabNyghtMod.NYGHT_TAB);
     }
 
     public BlockNyghtmod()
