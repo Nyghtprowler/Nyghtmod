@@ -3,6 +3,7 @@ package com.nyghtprowler.nyghtmod;
 import com.nyghtprowler.nyghtmod.handler.ConfigurationHandler;
 import com.nyghtprowler.nyghtmod.init.ModBlocks;
 import com.nyghtprowler.nyghtmod.init.ModItems;
+import com.nyghtprowler.nyghtmod.init.Recipes;
 import com.nyghtprowler.nyghtmod.proxy.IProxy;
 import com.nyghtprowler.nyghtmod.reference.Reference;
 import com.nyghtprowler.nyghtmod.utility.LogHelper;
@@ -39,6 +40,7 @@ public class nyghtmod
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recipes.init();
         LogHelper.info("Initialization Complete!");
     }
 
