@@ -1,6 +1,7 @@
 package com.nyghtprowler.nyghtmod.block;
 
 
+
 public class BlockFlag extends BlockNyghtmod
 {
     public BlockFlag()
